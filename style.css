@@ -34,7 +34,7 @@ body {
 }
 
 .section-heading h3 {
-    font-size: 48px;
+    font-size: 42px;
 }
 
 /* 
@@ -111,4 +111,29 @@ Package CSS
     font-weight: 500 !important;
     padding: 10px 30px !important;
     border-radius: 25px !important;
+}
+
+/* 
+Footer CSS
+*/
+.footer {
+    background: #0B0D17;
+}
+
+.copyright-text {
+    color: #fff;
+}
+
+.apps-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.apps-text h3 {
+    color: #fff;
+}
+
+.apps-text img {
+    margin: 10px 0;
 }
