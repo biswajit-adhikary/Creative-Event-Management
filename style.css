@@ -110,6 +110,7 @@ Package CSS
     color: #fff;
     border-radius: 25px;
     position: relative;
+    box-shadow: 0 .5rem 1rem rgba(82,67,194,.25)!important;
 }
 .special-package .package-detail ul li i {
     color: #fff;
@@ -172,6 +173,7 @@ Footer CSS
     margin: 10px 0;
 }
 
+
 /* 
 Responsive CSS
 */
@@ -204,7 +206,7 @@ Responsive CSS
         padding: 6px 20px !important;
     }
     .faq-text {
-        margin-bottom: 30px;
+        margin-top: 30px;
     }
     .copyright-text {
         margin-top: 30px;
