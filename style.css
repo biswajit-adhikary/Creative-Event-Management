@@ -62,6 +62,26 @@ Hero CSS
 }
 
 /* 
+About CSS
+*/
+.about {
+    position: relative;
+}
+
+.theme-toast {
+    position: absolute;
+    top: 150px;
+    right: 0;
+}
+.about .theme-toast {
+    border-radius: 0 !important;
+    border-left: 5px solid #5243C2;
+}
+.theme-toast i {
+    color: #5243C2;
+    margin-right: 10px;
+}
+/* 
 Package CSS
 */
 .package-head h3 {
@@ -114,6 +134,20 @@ Package CSS
 }
 
 /* 
+Testimonial CSS
+*/
+.single-testimonial h4 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.single-testimonial h5 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #747474;
+}
+
+/* 
 Footer CSS
 */
 .footer {
@@ -136,4 +170,14 @@ Footer CSS
 
 .apps-text img {
     margin: 10px 0;
+}
+
+@media (max-width: 992px) {
+    .faq-text {
+        margin-bottom: 30px;
+    }
+    .copyright-text {
+        margin-top: 30px;
+        text-align: center;
+    }
 }
