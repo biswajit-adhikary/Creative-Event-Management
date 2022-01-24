@@ -4,6 +4,12 @@ Base css
 body {
     font-family: 'Poppins', sans-serif;
 }
+.theme-button-one {
+    background: #fff !important;
+    color: #3F87F5 !important;
+    font-weight: 500 !important;
+    padding: 10px 30px !important;
+}
 
 /* 
 Header CSS
@@ -16,4 +22,15 @@ Header CSS
 }
 .header .nav-link {
     font-weight: 500;
+}
+
+.hero .carousel-caption {
+    margin-bottom: 30px;
+}
+
+/* 
+Hero CSS
+*/
+.carousel-caption h2 {
+    font-size: 45px;
 }
