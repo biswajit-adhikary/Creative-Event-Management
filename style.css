@@ -10,6 +10,17 @@ body {
     font-weight: 500 !important;
     padding: 10px 30px !important;
 }
+.theme-button-two {
+    background: #3F87F5 !important;
+    color: #fff !important;
+    font-weight: 500 !important;
+    padding: 10px 30px !important;
+    border-radius: 0 !important;
+}
+.theme-button-two i {
+    margin-left: 10px;
+    font-size: 14px;
+}
 
 /* 
 Header CSS
